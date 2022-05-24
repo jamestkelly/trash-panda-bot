@@ -1,0 +1,1 @@
+${user1} knocked out ${user2} on ${day} at ${location}.
