@@ -74,7 +74,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This project houses a bot for Discord that is used to post _funny_ and relatively _out of pocket_ short stories about members within your server. The bot first decides whether this is a **solo** story or if it contains multiple people. From there a short bit of _lore_ is generated regarding users who are selected at random.
+
+The purpose of this project was to introduce an element of _humour_, however, if some users do not want to be randomly tagged and **slandered**, then the bot also provides a very simple _blacklist_ mechanism.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,7 +92,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Prerequisites
 
-Discord bot, `trash-panda-bot` is build using NodeJS and the Discord API, as such it is assumed that you already have Node installed in your local environment. To install the required packages, using the following command.
+Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as such it is assumed that you already have Node installed in your local environment. To install the required packages, using the following command.
 
 * npm
 
