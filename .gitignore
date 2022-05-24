@@ -1,3 +1,6 @@
+# MacOSX Configuration Files
+.DS_Store
+
 # Logs
 logs
 *.log

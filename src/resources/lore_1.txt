@@ -1,0 +1,1 @@
+${user1} ate three bowls of spaghetti at ${location}, last {$day}.

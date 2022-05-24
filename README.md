@@ -80,7 +80,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [NodeJS](www.google.com)
+* [NodeJS](https://nodejs.org/en/)
 * [Discord API](www.discord.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -88,22 +88,19 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Discord bot, `trash-panda-bot` is build using NodeJS and the Discord API, as such it is assumed that you already have Node installed in your local environment. To install the required packages, using the following command.
 
 * npm
 
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Follow the [instructions](https://discord.com/developers/docs/intro) from Discord to generate a free token.
 2. Clone the repo
 
    ```sh
@@ -116,10 +113,18 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 
-4. Enter your API in `config.js`
+4. Create a file called `config.json` and add your token to it.
+   
+   ```json
+   {
+     "BOT_TOKEN": "EXAMPLE0123adhgajksdcTOKEN"
+   }
+   ```
 
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+5. Run the bot locally to test if it works prior to deployment.
+   
+   ```sh
+   node index.js # Run the bot on your local host
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -180,7 +185,15 @@ Project Link: [https://github.com/jamestkelly/trash-panda-bot](https://github.co
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Lorem Ipsum
+### Notable Contributors
+
+* [Aaron Dougals](https://www.linkedin.com/in/aaron-douglas-28645a23b/)
+* [Jimmy Hoang](https://www.linkedin.com/in/jimmy-hoang-5270b8238/)
+* [Rohan Singh](https://www.linkedin.com/in/rohan-singh-developer/)
+
+### Service Providers
+
+* [Discord](https://discord.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
