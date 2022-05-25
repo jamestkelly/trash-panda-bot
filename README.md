@@ -116,7 +116,7 @@ Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as suc
    ```
 
 4. Create a file called `config.json` and add your token to it.
-   
+
    ```json
    {
      "BOT_TOKEN": "EXAMPLE0123adhgajksdcTOKEN"
@@ -124,7 +124,7 @@ Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as suc
    ```
 
 5. Run the bot locally to test if it works prior to deployment.
-   
+
    ```sh
    node index.js # Run the bot on your local host
    ```

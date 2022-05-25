@@ -1,9 +1,10 @@
-const Discord = require("discord.js");
-const config = require("../config.json");
-const client = new Discord.client();
+const { Client, Intents } = require("discord.js");
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
-// Enable Discord bot to log in
-client.login(config.BOT_TOKEN); 
+//
+client.on("ready", () => {
+    console.log(`Logged in as: ${client.user.tag}`);
+})
 
 /// Summary:
 ///     Method to fetch all user names within the server.
@@ -24,6 +25,12 @@ function getUsers() {
     }
 
     return userNames.split(" ");
+}
+
+function getGuilds() {
+    client.guilds.cache.forEach((guild) => {
+        console.log(guild.name);
+    })
 }
 
 ///
@@ -54,3 +61,6 @@ function checkUsers(userOne, userTwo) {
 
     return true;
 }
+
+// Enable Discord bot to log in
+client.login(process.env.TOKEN);
