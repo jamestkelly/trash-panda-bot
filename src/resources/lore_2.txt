@@ -1,1 +1,2 @@
-${user1} knocked out ${user2} on ${day} at ${location}.
+${user1} knocked out ${user2} on ${day} ${location}.
+${user1} asked ${user2} for a good night, but they were left on seen.

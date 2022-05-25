@@ -1,1 +1,2 @@
-${user1} ate three bowls of spaghetti at ${location}, last {$day}.
+${user1} ate three bowls of spaghetti ${location}, last {$day}.
+Where is ${user1}? Did we leave ${user1} at ${location}?
