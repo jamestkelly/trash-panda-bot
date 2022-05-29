@@ -1,6 +1,12 @@
 # MacOSX Configuration Files
 .DS_Store
 
+# Environment variables
+./src/.env
+
+# Tokens
+config.json
+
 # Logs
 logs
 *.log

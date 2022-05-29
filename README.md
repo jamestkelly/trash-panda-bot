@@ -17,6 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -59,6 +60,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+          <ul>
+            <li><a href="#environment-variables">Environment Variables</a></li>
+          </ul>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -72,6 +76,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 This project houses a bot for Discord that is used to post _funny_ and relatively _out of pocket_ short stories about members within your server. The bot first decides whether this is a **solo** story or if it contains multiple people. From there a short bit of _lore_ is generated regarding users who are selected at random.
@@ -82,23 +87,31 @@ The purpose of this project was to introduce an element of _humour_, however, if
 
 ### Built With
 
-* [NodeJS](https://nodejs.org/en/)
-* [Discord API](www.discord.com)
+- [NodeJS](https://nodejs.org/en/)
+- [Discord API](www.discord.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Prerequisites
 
 Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as such it is assumed that you already have Node installed in your local environment. To install the required packages, using the following command.
 
-* npm
+- npm
 
   ```sh
   npm install
   ```
+
+#### Environment Variables
+
+For the environment variables used within the repository, you can either request from any of the contributors (if contributing to this specific bot) the **environment variables**. Alternatively, if implementing this bot for your own channels or servers, you will find the following links useful in generating your own variables.
+
+- [Discord Bot API Guide](https://www.toptal.com/chatbot/how-to-make-a-discord-bot)
+- [Fetching Discord Channel IDs](https://docs.statbot.net/docs/faq/general/how-find-id/)
 
 ### Installation
 
@@ -116,7 +129,7 @@ Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as suc
    ```
 
 4. Create a file called `config.json` and add your token to it.
-   
+
    ```json
    {
      "BOT_TOKEN": "EXAMPLE0123adhgajksdcTOKEN"
@@ -124,7 +137,7 @@ Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as suc
    ```
 
 5. Run the bot locally to test if it works prior to deployment.
-   
+
    ```sh
    node index.js # Run the bot on your local host
    ```
@@ -132,6 +145,7 @@ Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as suc
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 This project can be used within your own Discord servers by connecting them and adding the `bot` to any given channel. To edit questions, simply edit the `questions.txt` file to change which questions the bot will select from _at random_ to ask people within your server.
@@ -141,18 +155,23 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
-* [ ] Develop `trash-panda-bot` in its most basic form, i.e. ability to read and write to a channel.
-* [ ] Write up several _funny_ and unrealistic things for the bot to post.
-* [ ] Finalise `Version 1.0` of the bot.
-  * [ ] Release the bot.
+- [x] Develop `trash-panda-bot` in its most basic form, i.e. ability to read and write to a channel.
+- [x] Write up several _funny_ and unrealistic things for the bot to post.
+  - [ ] Create enough flavour texts so that the bot is unlikely to repeat itself.
+- [ ] Finalise `Version 1.0` of the bot.
+  - [ ] Deploy the bot to a cloud provider (GCP).
+  - [ ] Implement GitHub Actions pipeline for automatic updates upon approval of merge requests (MRs).
+  - [ ] Release the bot.
 
 See the [open issues](https://github.com/jamestkelly/trash-panda-bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -169,6 +188,7 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -176,6 +196,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 Jim Kelly - jimkelly.t@outlook.com
@@ -185,22 +206,24 @@ Project Link: [https://github.com/jamestkelly/trash-panda-bot](https://github.co
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 ### Notable Contributors
 
-* [Aaron Dougals](https://www.linkedin.com/in/aaron-douglas-28645a23b/)
-* [Jimmy Hoang](https://www.linkedin.com/in/jimmy-hoang-5270b8238/)
-* [Rohan Singh](https://www.linkedin.com/in/rohan-singh-developer/)
+- [Aaron Dougals](https://www.linkedin.com/in/aaron-douglas-28645a23b/)
+- [Jimmy Hoang](https://www.linkedin.com/in/jimmy-hoang-5270b8238/)
+- [Rohan Singh](https://www.linkedin.com/in/rohan-singh-developer/)
 
 ### Service Providers
 
-* [Discord](https://discord.com)
+- [Discord](https://discord.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/jamestkelly/trash-panda-bot.svg?style=for-the-badge
 [contributors-url]: https://github.com/jamestkelly/trash-panda-bot/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/jamestkelly/trash-panda-bot.svg?style=for-the-badge
