@@ -1,0 +1,55 @@
+{
+    "welcomeMessage": "Welcome <@?userId>! You're a Morbie now 🧛",
+    "jokes": [
+        "I'm afraid for the calendar. Its days are numbered.",
+        "My wife said I should do lunges to stay in shape. That would be a big step forward.",
+        "Why do fathers take an extra pair of socks when they go golfing? In case they get a hole in one!",
+        "Singing in the shower is fun until you get soap in your mouth. Then it's a soap opera.",
+        "What do a tick and the Eiffel Tower have in common? They're both Paris sites.",
+        "What do you call a fish wearing a bowtie? Sofishticated.",
+        "How do you follow Will Smith in the snow? You follow the fresh prints.",
+        "If April showers bring May flowers, what do May flowers bring? Pilgrims.",
+        "I thought the dryer was shrinking my clothes. Turns out it was the refrigerator all along.",
+        "Why are elevator jokes so good? They work on many levels." 
+    ],
+    "funFacts": [
+        "Avocados are a fruit, not a vegetable",
+        "The Eiffel Tower can be 15 cm taller during the summer",
+        "Australia is wider than the moon",
+        "Human teeth are the only part of the body that cannot heal themselves",
+        "It's illegal to own just one guinea pig in Switzerland",
+        "The Ancient Romans used to drop a piece of toast into their wine for good health",
+        "The heart of a shrimp is located in its head",
+        "Baby rabbits are called kits",
+        "Venus is the only planet to spin clockwise",
+        "Nutmeg is a hallucinogen"
+    ],
+    "raccoonGifs": [
+        "https://c.tenor.com/90HLWDj3dQkAAAAd/raccoon-ayasan.gif",
+        "https://c.tenor.com/Qxf4UdjkrbMAAAAd/raccoon-not-eat-my-grapes.gif",
+        "https://c.tenor.com/zV97vABOlhcAAAAd/thirsty-hangover.gif",
+        "https://c.tenor.com/o8UTkIL-_HEAAAAd/bobatyun-raccoon.gif",
+        "https://c.tenor.com/6WNaY_5A4lwAAAAd/raccoon-raccoon-dance.gif",
+        "https://c.tenor.com/UtUZtrvzRFkAAAAd/foreign-stance-racoon-racoon-blanket.gif",
+        "https://c.tenor.com/TS0cA2Y7izgAAAAd/raccoon-racon.gif",
+        "https://c.tenor.com/JhAkD080yYAAAAAd/scooch-raccoon.gif",
+        "https://c.tenor.com/W1IGDx7Qo2cAAAAd/racoon-raccoon.gif",
+        "https://c.tenor.com/8LxqBe2hS6YAAAAd/raccoon-spin.gif"
+    ],
+    "lore": {
+        "individualUser": [
+            "${user1} ate three bowls of spaghetti at ${location}, last ${times}."
+        ],
+        "multipleUsers": [
+            "${user1} knocked out ${user2} on ${day} at ${location}."
+        ]
+    },
+    "locations": [
+        "Lord of the Fries on King Street",
+        "Level 20"
+    ],
+    "times": [
+        "Saturday",
+        "Sunday"
+    ]
+}
