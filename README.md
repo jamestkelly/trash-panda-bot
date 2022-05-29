@@ -158,9 +158,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Develop `trash-panda-bot` in its most basic form, i.e. ability to read and write to a channel.
-- [ ] Write up several _funny_ and unrealistic things for the bot to post.
+- [x] Develop `trash-panda-bot` in its most basic form, i.e. ability to read and write to a channel.
+- [x] Write up several _funny_ and unrealistic things for the bot to post.
+  - [ ] Create enough flavour texts so that the bot is unlikely to repeat itself.
 - [ ] Finalise `Version 1.0` of the bot.
+  - [ ] Deploy the bot to a cloud provider (GCP).
+  - [ ] Implement GitHub Actions pipeline for automatic updates upon approval of merge requests (MRs).
   - [ ] Release the bot.
 
 See the [open issues](https://github.com/jamestkelly/trash-panda-bot/issues) for a full list of proposed features (and known issues).
