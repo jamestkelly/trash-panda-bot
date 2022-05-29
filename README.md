@@ -59,6 +59,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+          <ul>
+            <li><a href="#environment-variables">Environment Variables</a></li>
+          </ul>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -99,6 +102,13 @@ Discord bot, `trash-panda-bot` is built using NodeJS and the Discord API, as suc
   ```sh
   npm install
   ```
+
+#### Environment Variables
+
+For the environment variables used within the repository, you can either request from any of the contributors (if contributing to this specific bot) the **environment variables**. Alternatively, if implementing this bot for your own channels or servers, you will find the following links useful in generating your own variables.
+
+- [Discord Bot API Guide](https://www.toptal.com/chatbot/how-to-make-a-discord-bot)
+- [Fetching Discord Channel IDs](https://docs.statbot.net/docs/faq/general/how-find-id/)
 
 ### Installation
 
