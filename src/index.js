@@ -144,7 +144,7 @@ bot.on("guildMemberAdd", (member) => {
         channel.send(welcomeMessage.replace('?userId', member.id));
         //TODO: uncomment below when out of testing and global role added to everyone
         //member.roles.add(requiredRole);
-        logDate("Required role added to new member")
+        //logDate("Required role added to new member")
     });
 });
 
